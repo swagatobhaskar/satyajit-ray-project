@@ -27,7 +27,10 @@ header p {
 
 img {
   display: block;
-  margin: 2px auto;
+  margin: 5px auto;
+  height: auto;
+  width: 100%;
+  max-width: 400px;
 }
 
 /* Navigation bar */
@@ -67,6 +70,7 @@ main {
   margin: 20px auto;
   padding: 20px;
   background-color: white;
+  box-sizing: border-box;
 }
 
 h2 {
@@ -89,16 +93,6 @@ footer span {
 
 footer span p {
   margin: 0;
-}
-
-/* Image placeholders */
-.placeholder {
-  background-color: #cccccc;
-  color: #555555;
-  text-align: center;
-  padding: 60px 10px;
-  margin: 15px 0;
-  border: 2px dashed #888888;
 }
 
 /* Tables */
