@@ -30,7 +30,7 @@ img {
   margin: 5px auto;
   height: auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
 }
 
 /* Navigation bar */
@@ -118,4 +118,13 @@ footer {
   color: white;
   text-align: center;
   padding: 15px;
+}
+
+.category {
+  color: white;
+  margin: 5px 0;
+  padding: 2px 5px;
+  background-color: #a84c4c;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
