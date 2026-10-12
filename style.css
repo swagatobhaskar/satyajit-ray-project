@@ -75,6 +75,22 @@ h2 {
   padding-bottom: 5px;
 }
 
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+footer span {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+footer span p {
+  margin: 0;
+}
+
 /* Image placeholders */
 .placeholder {
   background-color: #cccccc;
