@@ -31,6 +31,9 @@ img {
   height: auto;
   width: 100%;
   max-width: 450px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
 /* Navigation bar */
@@ -66,11 +69,40 @@ nav a.active {
 
 /* Main content */
 main {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 20px auto;
   padding: 20px;
   background-color: white;
   box-sizing: border-box;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+  margin: 18px 0;
+  align-items: start;
+}
+
+.gallery img{
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 12px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 }
 
 h2 {
@@ -82,6 +114,7 @@ h2 {
 footer {
   text-align: center;
   padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 footer span {
